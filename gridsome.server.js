@@ -19,7 +19,7 @@ module.exports = function (api) {
   })
 
   api.loadSource(async actions => {
-    const { data } = await axios.get('http://localhost:1337/events')
+    const { data } = await axios.get('https://strapi-t.herokuapp.com/events')
 
     const collection = actions.addCollection({
       typeName: 'Event',

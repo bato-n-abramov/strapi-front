@@ -14,7 +14,7 @@
           <v-img
               class="white--text align-end"
               height="200px"
-              :src="`http://localhost:1337${edge.node.thumbnail}`"
+              :src="`https://strapi-t.herokuapp.com/${edge.node.thumbnail}`"
           >
           </v-img>
           <v-card-title>{{edge.node.title}}</v-card-title>

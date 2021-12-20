@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <h1>{{$page.event.title}}</h1>
-    <img :src="`http://localhost:1337${$page.event.image}`" alt="">
+    <img :src="`https://strapi-t.herokuapp.com/${$page.event.image}`" alt="">
     <p>{{$page.event.description}}</p>
   </Layout>
 </template>
